@@ -72,7 +72,7 @@ section {
 }
 
 .btn:hover {
-  background: #235bf6;
+  background: #3a6cf4;
 }
 
 .icon{
@@ -154,7 +154,7 @@ header {
 }
 
 header.sticky {
-  background: #3a6cf4;
+  background: #160092;
   padding: 10px 200px;
 }
 
@@ -179,7 +179,7 @@ header .navigation a {
 }
 
 header .navigation a:hover {
-  color: #3a6cf4;
+  color: #3af48e;
 }
 
 header.sticky .navigation a:hover {
@@ -248,8 +248,8 @@ body {
 }
 
 .about .content .col-left .img-card {
-  position: relative;
-  width: 100%;
+  position: left;
+  width: 60%;
   min-height: 450px;
 }
 
@@ -725,4 +725,65 @@ body {
 .reveal.active {
   transform: translateY(0);
   opacity: 1;
+}
+
+body {
+  font-family: sans-serif;
+  background-color: #eee;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.title {
+  color: #333;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.description {
+  color: #666;
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.boxes {
+  display: flex;
+  justify-content: space-between;
+}
+
+.box {
+  width: 30%;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  padding: 50px;
+  margin-bottom: 50px;
+}
+
+.box-1 {
+  background-color: #ffc107;
+}
+
+.box-2 {
+  background-color: #dc3545;
+}
+
+.box-3 {
+  background-color: #28a745;
+}
+
+@media (max-width: 600px) {
+  .boxes {
+    flex-direction: column;
+  }
+  .box {
+    width: 100%;
+    margin-bottom: 10px;
+  }
 }
