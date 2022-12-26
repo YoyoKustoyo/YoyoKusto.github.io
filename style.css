@@ -96,7 +96,7 @@ section {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  color: #fff;
+  color: rgb(255, 255, 255);
 }
 .icon:hover i{
   color: #fff;
