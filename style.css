@@ -350,7 +350,7 @@ body {
 }
 
 .skills .content .col-right .bar .python:before {
-  width: 1%;
+  width: 0%;
   background: #dd6730;
 }
 
